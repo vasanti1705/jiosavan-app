@@ -95,3 +95,5 @@ def get_lyrics(id):
     lyrics_json = requests.get(url).text
     lyrics_text = json.loads(lyrics_json)
     return lyrics_text['lyrics']
+
+
